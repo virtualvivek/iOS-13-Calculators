@@ -1,5 +1,5 @@
 
-<img align="left" src="https://github.com/vivekverma007/Amrapali-Mobile/blob/master/preview/img_intro.png" width="280" /> 
+<img align="left" src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/preview1.png" width="280" /> 
 
 
 <p><h1 align="left">📱 ios-13-Calculator</h1></p>

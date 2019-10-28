@@ -9,15 +9,8 @@
 
 ___
 
-## Features
-* `Added Backdrop Shadows`
+## Overview
+* An ios 13 (light theme) style set of calculators for internet browsers. 
 ​
 
-* `Bottom Navigation bar`
-​
 
-* `Implements SVG Vector Icon`
-​
-
-* `New Social Carousel Introduced`
-​

@@ -1,5 +1,5 @@
 
-<img align="left" src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/preview1.png" width="380" /> 
+<img align="left" src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/preview1.png" width="400" /> 
 
 
 <p><h1 align="left">📱 ios-13-Calculator</h1></p>
@@ -10,7 +10,7 @@
 ___
 
 ## Overview
-* An ios 13 (light theme) style set of calculators for internet browsers. 
+ An ios 13 (light theme) style set of calculators for internet browsers. 
 ​
 
 

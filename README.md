@@ -9,7 +9,9 @@
 
 ___
 ### Overview
- An ios 13 (light theme) style set of calculators for internet browsers. 
+ An ios 13 `light theme` style set of calculators for internet browsers. 
+ 
+ Easily Embbed into pages and use calculated results easily in your pages.
  
  
 
@@ -42,13 +44,8 @@ ___
 <img align="right" src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/anim_basic.gif" width="180" />
 
 ## Basic Calculator
-An ios 13 style `Light theme` Calculator .
 
-Written in html5 and css3 for web browsers .
-
-Easily Embbed into pages and use solved results.
-
-### Basic Calculator
+### Usage
 To use values returned by the calculator-
 ```js
 use {{c_value}}

@@ -5,7 +5,7 @@
 
 
 
-<h4>An ios 13 style calculators in html, css and Angular js .Set of Basic and BMI Interfaces. </h4>
+<h4>An ios 13 style calculators in html, css and Angular js, Set of Basic and BMI Interfaces. </h4>
 
 ___
 ### Overview
@@ -44,7 +44,6 @@ ___
 <img align="right" src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/anim_basic.gif" width="180" />
 
 ## Basic Calculator
-
 ### Usage
 To use values returned by the calculator-
 ```js

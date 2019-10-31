@@ -42,16 +42,15 @@ ___
 </p>  
 
 ## Basic Calculator
-​
-<img align="right" src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/anim_basic.gif" width="180" />
 
+<img align="right" src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/anim_basic.gif" width="180" />
 
 ### Usage
 To use values returned by the calculator-
 ```js
 use {{c_value}}
 
-Eg <input type="text" placeholder="Result" value="{{c_value}}"/>
+Eg: <input type="text" placeholder="Result" value="{{c_value}}"/>
 ```
 OR through ng tag-
 ```js
@@ -68,7 +67,7 @@ To use values returned by the calculator-
 ```js
 use {{b_value}}
 
-Eg <input type="text" placeholder="BMI value" value="{{b_value}}"/>
+Eg: <input type="text" placeholder="BMI value" value="{{b_value}}"/>
 ```
 OR through ng tag-
 ```js

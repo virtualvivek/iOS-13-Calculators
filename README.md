@@ -1,16 +1,5 @@
 <h2 align="center"> 🎮 ios-13-Calculators </h2>
 
-[![Github](https://drive.google.com/uc?export=download&id=0BxPO_UeS7wScd2otYkEydkdjNUk)](http://github.com/details/1/3524)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[![Android](https://drive.google.com/uc?export=download&id=0BxPO_UeS7wSccEZaclNGN0R5OWc)](https://github.com/DevLight-Mobile-Agency)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[![Download](https://drive.google.com/uc?export=download&id=0BxPO_UeS7wScLXZTaGprRXZXeEU)](https://bintray.com/gigamole/maven/shadowlayout/_latestVersion)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[![License](https://drive.google.com/uc?export=download&id=0BxPO_UeS7wScU0tmeFpGMHVWNWs)](https://github.com/DevLight-Mobile-Agency/ShadowLayout/blob/master/LICENSE.txt)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[![Codacy](https://drive.google.com/uc?export=download&id=0BxPO_UeS7wScSHhmckZyeGJDcXc)](https://www.codacy.com/app/gigamole53/ShadowLayout?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=DevLight-Mobile-Agency/ShadowLayout&amp;utm_campaign=Badge_Grade)
-
-
 <p align="center"><img src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/preview1.png" width="400" /> 
 <img src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/preview2.png" width="400" /></p> 
 

@@ -1,5 +1,25 @@
 <h2 align="center"> 🎮 ios-13-Calculators </h2>
 
+<p align="center">
+	<a href="https://angularjs.org">
+    <img src="https://img.shields.io/badge/Platform-Angularjs-yellow.svg?color=red"
+      alt="Platform" />
+  </a>
+  	
+  <a href="https://github.com/vivekverma007/ios-13-Calculators">
+    <img src="https://img.shields.io/github/repo-size/vivekverma007/ios-13-Calculators.svg?color=orange"
+      alt="Repo. Size" />
+  </a>
+  	<a href="https://opensource.org/licenses/Apache">
+    <img src="https://img.shields.io/badge/License-Apache2.0-blue.svg"
+      alt="License: Apache" />
+  </a>
+  	<a href="https://github.com/vivekverma007/ios-13-Calculators">
+    <img src="https://img.shields.io/badge/Release-v1.0Pre-darklime.svg?style=flat"
+      alt="Release" />
+  </a>
+</p>
+
 <p align="center"><img src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/preview1.png" width="400" /> 
 <img src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/preview2.png" width="400" /></p> 
 

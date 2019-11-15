@@ -1,0 +1,291 @@
+
+
+button {
+  font-size: 20px;
+}
+
+button:focus
+{
+    outline: none;
+}
+
+.background-green {
+  background: green;
+  background-color: green;
+}
+
+.container {
+  display: grid;
+    justify-content: center;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: 80px 55px;
+    grid-template-areas:
+        "header header header header"
+        "main main main main"
+        "main main main main"
+        "main main main main"
+        "main main main main"
+        "main main main main";
+    width: 220px;
+    background: WHITE;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 30px;
+    border: 2px solid #ddd;
+    margin: auto;
+    margin-top: 6%;
+}
+
+.item-header {
+  grid-area: header;
+  color:#222;
+}
+
+#globalAnswer {
+  background-color:#111;
+  font-size: 1px;
+}
+
+#currentValue {
+  background-color: white;
+  grid-column-start: 1;
+  grid-column-end: span 4;
+  text-align: right;
+    font-size: 35px;
+    height: 50px;
+    padding-right: 10px;
+    position: relative;
+    top: 15px;
+}
+
+button.btn {
+  background-color: #E9F0F4;
+  border: none;
+  color: #222;
+  padding: 10px;
+  text-align: center;
+  margin: 4px 2px;
+  border-radius: 50%;
+    box-shadow: 0px 0px 5px #eee, 0px 0px 2px #E9F0F4, 0px 0px 20px silver;
+    transition: all ease 0.3s;
+}
+
+button.orange {
+  background-color: #FF9500;
+    box-shadow: 0px 0px 5px #FF9500, 0px 0px 2px #FF9500, 0px 8px 20px #FF9500;
+    color: white;
+    transition: all ease 0.3s;
+    padding: 5px;
+    font-size: 24px;
+}
+
+button.orange:active {
+  background-color: #D78615;
+  color: white;
+}
+
+button.silver {
+  background-color: silver;
+  color: black;
+        box-shadow: 0px 0px 5px silver, 0px 0px 2px silver, 0px 8px 20px silver;
+}
+
+button.silver:active {
+  background-color: white;
+  color: black;
+}
+
+button.equals {
+  border: 2px solid transparent;
+    background: #2EC973;
+    color: white;
+    box-shadow: 0px 0px 5px #2EC973, 0px 0px 2px #2EC973, 0px 8px 20px #2EC973;
+    padding: 2px;
+    transition: all ease 0.2s;
+}
+
+button.equals:active {
+  background-color: #15AC58;
+  color: white;
+}
+
+button.zero {
+  text-align: left;
+  padding-left: 32px;
+  grid-row: 6;
+  grid-column-start: 1;
+  grid-column-end: span 2;
+  border-radius: 50px;
+}
+
+button.num:active
+{
+    background: #999;
+    color: white;
+}
+
+input#currentValue
+{
+    border: none;
+}
+
+button.btn.silver.clear
+{
+    border: 2px solid transparent;
+    background: #F57078;
+    color: white;
+    box-shadow:  1px 5px 20px #F7949A, 0px 2px 1px #F7949A, 1px 2px 4px #F7949A;
+    padding: 2px;
+    font-size: 18px;
+}
+
+button.btn.silver.clear:active
+{
+    background: #CE1722;
+        color: white;
+}
+
+button.btn.num
+{
+    border: 2px solid #ddd;
+}
+
+
+
+.bmi_container {
+  display: block;
+    justify-content: center;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: 80px 55px;
+    grid-template-areas:
+        "header header header header"
+        "main main main main"
+        "main main main main"
+        "main main main main"
+        "main main main main"
+        "main main main main";
+    width: 190px;
+    background: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 30px;
+    border: 2px solid #ddd;
+    margin: auto;
+    margin-top: 6%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+input.data_field {
+  background-color: #E9F0F4;
+    padding: 10px 10px 10px 15px;
+    border-radius: 20px;
+    color: #222;
+    border: 2px solid #ddd;
+    width: 100%;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: left;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    font: 400 13.3333px Arial;
+    margin: 5px 2px;
+    box-shadow: 0px 0px 5px #eee, 0px 0px 2px #E9F0F4, 0px 0px 20px silver;
+    transition: all ease 0.2s;
+    font-size: 18px;
+}
+
+input.data_field:focus
+{
+
+    border: 2px solid #999;
+    outline: none;
+    background: #eee;
+
+}
+
+input#bmi_currentValue
+{
+
+    grid-area: header;
+    color: #222;
+    width: 100%;
+    background-color: transparent;
+    grid-column-start: 1;
+    grid-column-end: span 4;
+    text-align: right;
+    font-size: 30px;
+    height: 50px;
+    padding-right: 10px;
+    position: relative;
+    top: 15px;
+    outline: none;
+    border: none;
+    margin-bottom: 5px;
+}
+
+button.btn.bmi_equals
+{
+    border: 2px solid transparent;
+    background: #2EC973;
+    color: white;
+    box-shadow: 0px 0px 5px #2EC973, 0px 0px 2px #2EC973, 0px 8px 20px #2EC973;
+    padding: 2px;
+    border-radius: 28px;
+    width: 100%;
+    font-size: 18px;
+    padding: 8px;
+    margin-top: 5px;
+    transition: all ease 0.2s;
+}
+
+button.btn.bmi_equals:active
+{
+    background-color: #15AC58;
+}
+
+span.input_units
+{
+    position: absolute;
+    right: 35px;
+    line-height: 3.5;
+}
+
+input.comments
+{
+   
+    background: transparent;
+    border: none;
+    position: relative;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.green{
+  color:#2EC973;
+}
+
+.red{
+  color:#F6444E;
+}
+
+.Lowgreen{
+  color:#63B487;
+}
+
+.Lowred{
+  color:#D0666C;
+}
+
+.blue{
+  color:#059CFE;
+}
+
+

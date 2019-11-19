@@ -2,17 +2,16 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Pure CSS iOS Tab</title>
-  
-<link rel="stylesheet" href="css/style.css">
+  <title>ios Calculators</title>
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/framework.css">
 </head>
 <body>
     
-<!-- partial:index.partial.html -->
-    
-    <div class="viv_body">
-
+<!-- Main container -->
+     
+<div class="viv_body">
+  
 <div class="c-tab" ng-app="viv_calc">
   <ul class="c-tab_list">
     <li class="c-tab_item">
@@ -49,28 +48,23 @@
   <button class="btn num" ng-click="addDecimal()">.</button>
   <button class="btn equals" ng-click="solveAdd()">=</button>
 
-</div>
-          
-          </section>
-    </li>
+          </div>
+    </section>
+   </li>
       
       
-      
-    <li class="c-tab_item">
+   <li class="c-tab_item">
       <input class="c-tab_input" type="radio" name="c-tab" id="foo-c-tab-2"/>
       <label class="c-tab_label" for="foo-c-tab-2">BMI </label>
       <section class="c-tab_content">
           
-          
-          <!-- Content of BMI Calculator -->
+     <!-- Content of BMI Calculator -->
         <div class="bmi_container" ng-controller="myCtrl2">
 
-  
             <div style="display:block;transition:0.5s;line-height:4.4;color:#ED3943">
             <input class="item item-header" placeholder="BMI" id="bmi_currentValue" ng-model="b_value | number : 2" ng-pattern="/^[0-9]+(\.[0-9]{1,2})?$/" step="0.01"/>
                 
-                <div style="display:flex;margin: 10px 5px 15px 5px;width:100%;justify-content: space-between;"><input style="width:135px;" class="comments" disabled type="text" ng-model="comment" ng-class="customStyle"  value=""/><input style="text-align: right;width:40px;font-size:28px;position:relative;right:5px;" type="text" class="comments" ng-class="customStyle_sub" ng-model="comment_sub" value=""/></div></div>
-
+            <div style="display:flex;margin: 10px 5px 15px 5px;width:100%;justify-content: space-between;"><input style="width:135px;" class="comments" disabled type="text" ng-model="comment" ng-class="customStyle"  value=""/><input style="text-align: right;width:40px;font-size:28px;position:relative;right:5px;" type="text" class="comments" ng-class="customStyle_sub" ng-model="comment_sub" value=""/></div></div>
             <div style="display:flex;"><input class="data_field" placeholder="Enter Weight" type="text" ng-model="ng_weight"/><span class="input_units">Kg</span></div>
             <div style="display:flex;"><input class="data_field" placeholder="Enter Height" type="text" ng-model="ng_height"/><span class="input_units">Ft'</span></div>
             
@@ -81,7 +75,6 @@
             <button class="btn bmi_equals" ng-click="solveBMI()">Solve BMI</button>
             </div>
           </div>
-          
           
       </section>
     </li>
@@ -111,7 +104,7 @@
 </div>
         </div>
 
-    <!-- virtualiz me -->
+    <!-- virtualiz.me -->
  
     <script  src="ng-app/angular.min.js"></script>
     <script  src="ng-app/ng_app.js"></script>

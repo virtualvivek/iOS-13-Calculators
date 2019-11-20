@@ -28,6 +28,8 @@
 
 <h4>An ios 13 style calculators in html, css and Angular js, Set of Basic and BMI Interfaces. </h4>
 
+`See another version of similar Calculator here - `<a href="https://github.com/vivekverma007/iweb-calculator">Dark version of ios Calculator</a>
+
 ___
 ### Overview
  An ios 13 `light theme` style set of calculators for internet browsers. 

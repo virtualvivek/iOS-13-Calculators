@@ -46,11 +46,13 @@ ___
  
  Include `ios-calculators` folder in your target project file.
  
- Add this line where you want the tabs to appear in your layout-
+ Add where you want to add between your layout using a preprocessing language-
 
 ```php
-<?php include 'include/ios-calculators.html';?>
+<?php include 'include/Calculator.html';?>
 ```
+#### OR  
+Simply copy the html code and add between you code.
 
 #### Requirements
 

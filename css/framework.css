@@ -74,12 +74,12 @@ button.orange {
   background-color: #FF9500;
     box-shadow: 0px 0px 5px #FF9500, 0px 0px 2px #FF9500, 0px 8px 20px #FF9500;
     color: white;
-    transition: all ease 0.3s;
+    transition:  0.3s ease;
     padding: 5px;
     font-size: 24px;
 }
 
-button.orange:active {
+button.orange:hover {
   background-color: #D78615;
   color: white;
 }
@@ -90,7 +90,7 @@ button.silver {
         box-shadow: 0px 0px 5px silver, 0px 0px 2px silver, 0px 8px 20px silver;
 }
 
-button.silver:active {
+button.silver:hover {
   background-color: white;
   color: black;
 }
@@ -104,7 +104,7 @@ button.equals {
     transition: all ease 0.2s;
 }
 
-button.equals:active {
+button.equals:hover {
   background-color: #15AC58;
   color: white;
 }
@@ -118,10 +118,12 @@ button.zero {
   border-radius: 50px;
 }
 
-button.num:active
+
+button.num:hover
 {
-    background: #999;
-    color: white;
+    background: silver;
+    transition: 0.5s ease;
+    
 }
 
 input#currentValue
@@ -139,7 +141,7 @@ button.btn.silver.clear
     font-size: 18px;
 }
 
-button.btn.silver.clear:active
+button.btn.silver.clear:hover
 {
     background: #CE1722;
         color: white;
@@ -198,7 +200,7 @@ input.data_field {
     font: 400 13.3333px Arial;
     margin: 5px 2px;
     box-shadow: 0px 0px 5px #eee, 0px 0px 2px #E9F0F4, 0px 0px 20px silver;
-    transition: all ease 0.2s;
+    transition: 0.25s ease;
     font-size: 18px;
 }
 
@@ -206,6 +208,15 @@ input.data_field:focus
 {
 
     border: 2px solid #999;
+    outline: none;
+    background: #eee;
+
+}
+
+input.data_field:hover
+{
+
+    border: 2px solid #777;
     outline: none;
     background: #eee;
 
@@ -246,7 +257,7 @@ button.btn.bmi_equals
     transition: all ease 0.2s;
 }
 
-button.btn.bmi_equals:active
+button.btn.bmi_equals:hover
 {
     background-color: #15AC58;
 }

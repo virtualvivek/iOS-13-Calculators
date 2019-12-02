@@ -52,7 +52,15 @@ ___
 <?php include 'include/Calculator.html';?>
 ```
 #### OR  
-Simply copy the html code and add between you code.
+Simply copy the html code and add between you page.
+
+​
+​
+​
+​
+​
+​
+​
 
 #### Requirements
 
@@ -60,10 +68,6 @@ Simply copy the html code and add between you code.
 <script type='text/javascript' src='angular.min.js'></script>
 
 ```
-​
-​
-​
-​
 </p>  
 
 ## Basic Calculator

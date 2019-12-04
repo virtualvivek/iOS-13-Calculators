@@ -28,7 +28,7 @@
 
 <h4>An ios 13 style calculators in html, css and Angular js, Set of Basic and BMI Interfaces. </h4>
 
-<img src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/dark_app.png" width="28" />​ See a similar dark version  here - <a href="https://github.com/vivekverma007/iweb-calculator">Dark version of ios Calculator</a>
+<img src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/app_dark.png" width="28" />​ See a similar dark version  here - <a href="https://github.com/vivekverma007/iweb-calculator">Dark version of ios Calculator</a>
 
 ___
 ### Overview

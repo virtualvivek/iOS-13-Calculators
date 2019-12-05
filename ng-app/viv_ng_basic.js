@@ -1,7 +1,6 @@
 
 app.controller('myCtrl', function($scope) {
-    
-    $scope.c_value="5";
+   
     
     $scope.addOne = function() {
         $scope.c_value += "1";

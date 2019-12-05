@@ -19,7 +19,7 @@
       alt="Release" />
   </a>
   
-  <a href="https://api.netlify.com/api/v1/badges/95cb8b85-0836-483d-96b8-ab9dd50a1e93/deploy-status">
+  <a href="https://app.netlify.com/sites/virtualizme-cals/deploys">
     <img src="https://api.netlify.com/api/v1/badges/95cb8b85-0836-483d-96b8-ab9dd50a1e93/deploy-status"
       alt="Release" />
   </a>

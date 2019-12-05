@@ -15,11 +15,11 @@
       alt="License: Apache" />
   </a>
   	<a href="https://github.com/vivekverma007/ios-13-Calculators">
-    <img src="https://img.shields.io/badge/Release-v1.0Pre-darklime.svg?style=flat"
+    <img src="https://img.shields.io/badge/Release-v2.0Stable-darklime.svg?style=flat"
       alt="Release" />
   </a>
   
-  <a href="https://app.netlify.com/sites/virtualizme-cals/deploys">
+  <a href="https://virtualizme-cals.netlify.com">
     <img src="https://api.netlify.com/api/v1/badges/95cb8b85-0836-483d-96b8-ab9dd50a1e93/deploy-status"
       alt="Release" />
   </a>

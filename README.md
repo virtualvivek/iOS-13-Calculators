@@ -18,6 +18,11 @@
     <img src="https://img.shields.io/badge/Release-v1.0Pre-darklime.svg?style=flat"
       alt="Release" />
   </a>
+  
+  <a href="https://api.netlify.com/api/v1/badges/95cb8b85-0836-483d-96b8-ab9dd50a1e93/deploy-status">
+    <img src="https://api.netlify.com/api/v1/badges/95cb8b85-0836-483d-96b8-ab9dd50a1e93/deploy-status"
+      alt="Release" />
+  </a>
 </p>
 
 <p align="center"><img src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/preview1.png" width="400" /> 
@@ -104,7 +109,7 @@ ng-model="b_value"
 ```
 
 ​
-## 🔘 ⚡ Live Demo : [virtualiz.me/ios13-Calculators](https://virtualize.netlify.com/)
+## 🔘 ⚡ Live Demo : [virtualiz.me/ios13-Calculators](https://virtualizme-cals.netlify.com/)
 ​
 
 ### Browser Compatibility

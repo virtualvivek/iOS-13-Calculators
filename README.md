@@ -109,7 +109,7 @@ ng-model="b_value"
 ```
 
 ​
-## 🔘 ⚡ Live Demo : [virtualiz.me/ios13-Calculators](https://virtualizme-cals.netlify.com/)
+## ⚡ Live Demo : [virtualiz.me/ios13-Calculators](https://virtualizme-cals.netlify.com/)
 ​
 
 ### Browser Compatibility

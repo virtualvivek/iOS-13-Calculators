@@ -12,6 +12,12 @@ app.controller('myCtrl2', function($scope) {
     
     $scope.clear = function() {
         $scope.b_value = "BMI";
+        
+        //getting system into its initial state
+        $scope.comment = "---";
+        $scope.comment_sub = "●";
+        $scope.customStyle = "blue";
+        $scope.customStyle_sub = "blue";
     }
     
 

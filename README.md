@@ -19,10 +19,13 @@
       alt="Release" />
   </a>
   
+  
   <a href="https://virtualizme-cals.netlify.com">
-    <img src="https://api.netlify.com/api/v1/badges/95cb8b85-0836-483d-96b8-ab9dd50a1e93/deploy-status"
-      alt="Release" />
+    <img src="https://img.shields.io/badge/⚡ live demo-here-green.svg?style=flat"
+      alt="Demo" />
   </a>
+  
+  
 </p>
 
 <p align="center"><img src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/preview1.png" width="400" /> 

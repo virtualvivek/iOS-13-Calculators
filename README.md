@@ -34,9 +34,11 @@
 
 
 
-<h4>A light-weight library provides ios 13 style calculators for web applications</h4>
+<h4 align="center">A light-weight library provides ios 13 style calculators for web applications</h4>
 
+<p align="center">
 <img src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/app_dark.png" width="28" />​ See a similar dark version  here - <a href="https://github.com/vivekverma007/iweb-calculator">Dark version of ios Calculator</a>
+</p>	
 
 ___
 ### Overview

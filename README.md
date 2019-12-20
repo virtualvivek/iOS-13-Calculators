@@ -34,7 +34,7 @@
 
 
 
-<h4>An ios 13 style calculators in html, css and Angular js, Set of Basic and BMI Interfaces. </h4>
+<h4>This light-weight library provides ios 13 style calculators for web applications written in html, css and AngularJs .Includes all general purpose calculators including Basic calculator, BMI calculator, Pressure calculator, and more.</h4>
 
 <img src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/app_dark.png" width="28" />​ See a similar dark version  here - <a href="https://github.com/vivekverma007/iweb-calculator">Dark version of ios Calculator</a>
 

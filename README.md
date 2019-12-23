@@ -2,9 +2,16 @@
 
 <p align="center">
 	<a href="https://angularjs.org">
-    <img src="https://img.shields.io/badge/Platform-Angularjs-yellow.svg?color=red"
-      alt="Platform" />
+    <img src="https://img.shields.io/badge/Platform-Web-yellow.svg?color=purple"
+      alt="Web" />
   </a>
+	
+	
+<p align="center">
+	<a href="https://angularjs.org">
+    <img src="https://img.shields.io/badge/Framework-Angularjs-yellow.svg?color=red"
+      alt="Framework" />
+  </a>	
   	
   <a href="https://github.com/vivekverma007/ios-13-Calculators">
     <img src="https://img.shields.io/github/repo-size/vivekverma007/ios-13-Calculators.svg?color=orange"

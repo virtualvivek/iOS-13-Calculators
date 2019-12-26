@@ -49,9 +49,9 @@
 
 ___
 ### Overview
- An ios 13 `light theme` style set of calculators for internet browsers. 
- 
- Easily Embbed into pages and use calculated results easily in your pages.
+ An ios 13 style calculators for web browsers. <br> 
+ Easily Embbed into pages and use calculated results easily in your pages. <br>
+ This project is inspired from the `light theme` introduced by apple inc. to apply styles in html css format.
  
  
 

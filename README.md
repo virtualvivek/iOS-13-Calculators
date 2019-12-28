@@ -1,7 +1,7 @@
 <h2 align="center"> <img src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/app_title.png" width="340" /> </h2>
 
 <p align="center">
-	<a href="https://angularjs.org">
+	<a href="https://www.google.com/search?q=web">
     <img src="https://img.shields.io/badge/Platform-Web-yellow.svg?color=purple"
       alt="Web" />
   </a>

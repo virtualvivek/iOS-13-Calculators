@@ -56,7 +56,7 @@ ___
  Easily Embbed and use calculated results easily in your pages. 
  This project is inspired from the `light theme` introduced by apple inc. to apply styles in html css format.</p>
  
- <p align="center"><img src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/previewMain_.jpg" width="500" /></p> 
+ <p align="center"><img src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/previewMain_.jpg" width="750" /></p> 
  
 </p>
  <p align="center">

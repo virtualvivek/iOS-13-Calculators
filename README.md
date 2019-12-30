@@ -55,7 +55,7 @@ ___
  
  
 
-<img align="left" src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/anim_tabs.gif" width="180" /> 
+<img align="center" src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/previewMain.png" width="480" /> 
 
  <p>
  

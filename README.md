@@ -48,16 +48,18 @@
 </p>	
 
 ___
-### Overview
- An ios 13 style calculators for web browsers. <br> 
- Easily Embbed into pages and use calculated results easily in your pages. <br>
- This project is inspired from the `light theme` introduced by apple inc. to apply styles in html css format.
- 
- 
 
-<img align="center" src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/previewMain.png" width="480" /> 
-
- <p>
+<p align="center">
+	
+<h3 align="center">Overview</h3>
+ <p align="center">An ios 13 style calculators for web browsers.
+ Easily Embbed and use calculated results easily in your pages. 
+ This project is inspired from the `light theme` introduced by apple inc. to apply styles in html css format.</p>
+ 
+ <p align="center"><img src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/previewMain.jpg" width="500" /></p> 
+ 
+</p>
+ <p align="center">
  
  ## Installation
  

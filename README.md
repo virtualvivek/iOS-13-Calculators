@@ -89,11 +89,11 @@ Simply copy the html code and add between you page.
 
 ## Basic Calculator
 
-<img align="right" src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/anim_basic.gif" width="180" />
+<img align="left" src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/anim_basic.gif" width="180" />
 
 ### Usage
 To use values returned by the Basic calculator-
-```js
+```html
 use {{c_value}}
 
 Eg: <input type="text" placeholder="Result" value="{{c_value}}"/>
@@ -104,13 +104,14 @@ ng-model="c_value"
 ```
 
 
+​
 ## BMI Calculator
 
 <img align="left" src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/anim_bmi.gif" width="180" />
 
 ### Usage
 To use values returned by the BMI calculator-
-```js
+```html
 use {{b_value}}
 
 Eg: <input type="text" placeholder="BMI value" value="{{b_value}}"/>
@@ -118,6 +119,23 @@ Eg: <input type="text" placeholder="BMI value" value="{{b_value}}"/>
 OR through `ng` tag-
 ```js
 ng-model="b_value"
+```
+
+
+
+## Timer
+
+<img align="left" src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/anim_timer.gif" width="180" />
+
+### Usage
+
+ <p><b>Standalone timer app here : </b><a href="https://google.com">ios-13-Calculators/iosTimer</a><p/>
+
+To use values returned by the Timer-
+```html
+use {{counter | formatTimer}}
+
+Eg: <input type="text" placeholder="BMI value" value="{{counter | formatTimer}}"/>
 ```
 
 ​

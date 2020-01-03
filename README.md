@@ -22,7 +22,7 @@
       alt="License: Apache" />
   </a>
   	<a href="https://github.com/vivekverma007/ios-13-Calculators">
-    <img src="https://img.shields.io/badge/Release-v2.0Stable-darklime.svg?style=flat"
+    <img src="https://img.shields.io/badge/Release-v2.0-darklime.svg?style=flat"
       alt="Release" />
   </a>
   

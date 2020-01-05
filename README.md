@@ -17,8 +17,8 @@
     <img src="https://img.shields.io/github/repo-size/vivekverma007/ios-13-Calculators.svg?color=orange"
       alt="Repo. Size" />
   </a>
-  	<a href="https://opensource.org/licenses/Apache">
-    <img src="https://img.shields.io/badge/License-Apache2.0-blue.svg"
+  	<a href="https://github.com/vivekverma007/ios-13-Calculators/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/vivekverma007/ios-13-Calculators.svg?color=blue"
       alt="License: Apache" />
   </a>
   	<a href="https://github.com/vivekverma007/ios-13-Calculators">
@@ -148,3 +148,9 @@ Eg: <input type="text" placeholder="BMI value" value="{{counter | formatTimer}}"
 ![Chrome](https://raw.github.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png) | ![Firefox](https://raw.github.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png) | ![Edge](https://raw.github.com/alrra/browser-logos/master/src/edge/edge_48x48.png) | ![Safari](https://raw.github.com/alrra/browser-logos/master/src/safari/safari_48x48.png) | ![Opera](https://raw.github.com/alrra/browser-logos/master/src/opera/opera_48x48.png)
 --- | --- | --- | --- | --- |
 Latest ✔ | Latest ✔ | Latest ✔ | 9.1+ ✔ | Latest ✔ |
+
+
+## License
+
+ios13-Calculators is licensed under `MIT license`. View [license](https://github.com/vivekverma007/ios-13-Calculators/blob/master/LICENSE).<br>
+Copyright (c) 2019 @vivekverma007

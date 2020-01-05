@@ -133,7 +133,7 @@ use {{counter | formatTimer}}
 Eg: <input type="text" placeholder="BMI value" value="{{counter | formatTimer}}"/>
 ```
 
-<br><br>
+<br><br><br><br>
 
 <a href="https://virtualizme-cals.netlify.com/"><img src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/demo_button.png" width="140" /></a> 
 

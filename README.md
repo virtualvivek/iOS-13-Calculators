@@ -152,5 +152,5 @@ Latest ✔ | Latest ✔ | Latest ✔ | 9.1+ ✔ | Latest ✔ |
 
 ## License
 
-ios13-Calculators is licensed under `MIT license`. View [license](https://github.com/vivekverma007/ios-13-Calculators/blob/master/LICENSE).<br>
+ios13-Calculators is licensed under `Apache-2.0 license`. View [license](https://github.com/vivekverma007/ios-13-Calculators/blob/master/LICENSE).<br>
 Copyright (c) 2019 @vivekverma007

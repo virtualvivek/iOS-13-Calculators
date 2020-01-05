@@ -73,15 +73,8 @@ ___
 #### OR  
 Simply copy the html code and add between you page.
 
-​
-​
-​
-​
-​
-​
-​
 
-#### Requirements
+### Requirements
 
 ```html
 <script type='text/javascript' src='angular.min.js'></script>
@@ -140,9 +133,10 @@ use {{counter | formatTimer}}
 Eg: <input type="text" placeholder="BMI value" value="{{counter | formatTimer}}"/>
 ```
 
-​
 ## ⚡ Live Demo : [virtualiz.me/ios13-Calculators](https://virtualizme-cals.netlify.com/)
-​
+
+<a href="https://virtualizme-cals.netlify.com/"><img src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/demo_button.png" width="140" /></a> 
+
 
 ### Browser Compatibility
 ![Chrome](https://raw.github.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png) | ![Firefox](https://raw.github.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png) | ![Edge](https://raw.github.com/alrra/browser-logos/master/src/edge/edge_48x48.png) | ![Safari](https://raw.github.com/alrra/browser-logos/master/src/safari/safari_48x48.png) | ![Opera](https://raw.github.com/alrra/browser-logos/master/src/opera/opera_48x48.png)

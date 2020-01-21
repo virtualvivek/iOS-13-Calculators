@@ -50,7 +50,7 @@ ___
 <h3 align="center">Overview</h3>
  <p align="center">An ios 13 style calculators for web browsers.
  Easily Embbed and use calculated results easily in your pages. 
- This project is inspired from the <code>light theme<code> introduced by <i>apple inc.<i> to apply styles in <b>html css<b> format.</p>
+ This project is inspired from the <code>light theme</code> introduced by <i>apple inc.</i> to apply styles in <b>html css</b> format.</p>
  
 </p>
  <p align="center">

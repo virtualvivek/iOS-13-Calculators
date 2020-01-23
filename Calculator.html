@@ -1,116 +1,38 @@
 <!DOCTYPE html>
 <html lang="en" >
 <head>
-  <meta charset="UTF-8">
-  <title>ios Calculators</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/framework.css">
+    <meta charset="UTF-8">
+    <meta name="author" content="Vivek Verma">
+    <title>ios13 Calculator</title>
+    <link rel="stylesheet" href="css/indexStyle.css">
 </head>
-<body>
-    
-<!-- Main container -->
-     
-<div class="viv_body">
-  
-<div class="c-tab" ng-app="viv_calc">
-  <ul class="c-tab_list">
-    <li class="c-tab_item">
-      <input class="c-tab_input" type="radio" name="c-tab" id="foo-c-tab-1" checked="checked"/>
-      <label class="c-tab_label" for="foo-c-tab-1">Basic</label>
-      <section class="c-tab_content">
-          
-          <!-- Content of Basic Calculator -->
-        <div class="container" ng-controller="myCtrl">
-
-  <input class="item item-header" placeholder="0" id="currentValue" ng-model="c_value" />
-
-  <button class="btn silver clear" ng-click="clear()">AC</button>
-  <button class="btn silver negative" ng-click="solveFraction()">1/x</button>
-  <button class="btn orange silver" ng-click="addMod()">%</button>
-  <button class="btn orange" ng-click="addDivide()">÷</button>
-
-  <button class="btn num" ng-click="addSeven()">7</button>
-  <button class="btn num" ng-click="addEight()">8</button>
-  <button class="btn num" ng-click="addNine()">9</button>
-  <button class="btn orange" ng-click="addMulti()">x</button>
-
-  <button class="btn num" ng-click="addFour()">4</button>
-  <button class="btn num" ng-click="addFive()">5</button>
-  <button class="btn num" ng-click="addSix()">6</button>
-  <button class="btn orange subtract" ng-click="addMinus()">-</button>
-
-  <button class="btn num" ng-click="addOne()">1</button>
-  <button class="btn num" ng-click="addTwo()">2</button>
-  <button class="btn num" ng-click="addThree()">3</button>
-  <button class="btn orange add" ng-click="addPlus()">+</button>
-
-  <button class="btn num zero" ng-click="addZero()">0</button>
-  <button class="btn num" ng-click="addDecimal()">.</button>
-  <button class="btn equals" ng-click="solveAdd()">=</button>
-
-          </div>
-    </section>
-   </li>
-      
-      
-   <li class="c-tab_item">
-      <input class="c-tab_input" type="radio" name="c-tab" id="foo-c-tab-2"/>
-      <label class="c-tab_label" for="foo-c-tab-2">BMI </label>
-      <section class="c-tab_content">
-          
-     <!-- Content of BMI Calculator -->
-        <div class="bmi_container" ng-controller="myCtrl2">
-
-            <div style="display:block;transition:0.5s;line-height:4.4;color:#ED3943">
-            <input class="item item-header" placeholder="BMI" id="bmi_currentValue" ng-model="b_value | number : 2" ng-pattern="/^[0-9]+(\.[0-9]{1,2})?$/" step="0.01"/>
-                
-            <div style="display:flex;margin: 10px 5px 15px 5px;width:100%;justify-content: space-between;"><input style="width:135px;" class="comments" disabled type="text" ng-model="comment" ng-class="customStyle"  value=""/><input style="text-align: right;width:40px;font-size:28px;position:relative;right:5px;" type="text" class="comments" ng-class="customStyle_sub" ng-model="comment_sub" value=""/></div></div>
-            <div style="display:flex;"><input class="data_field" placeholder="Enter Weight" type="text" ng-model="ng_weight"/><span class="input_units">Kg</span></div>
-            <div style="display:flex;"><input class="data_field" placeholder="Enter Height" type="text" ng-model="ng_height"/><span class="input_units">Ft'</span></div>
+    <body>
+    <div class="module_icon-container"><img src="preview/app_index_icon.png" class="module_icon"/></div>
+    <h4>ios 13 Calculators</h4>
+    <h5>ios style different calculator modules in <b>html css</b></h5>
+        <h3 id="calc_title" class="calculator_title">Choose an app</h3>
+        <div class="preview_div">
             
-            <div style="height:2px;background:#ddd;width:100%;margin: 5px 2px 10px 2px;"></div>
-
-            <div style="display:flex;">
-            <button class="btn silver clear" style="padding: 8px;margin-right: 10px;" ng-click="clear()">AC</button>
-            <button class="btn bmi_equals" ng-click="solveBMI()">Solve BMI</button>
-            </div>
-          </div>
-          
-      </section>
-    </li>
-    
-      <!--
-
-      <li class="c-tab_item">
-      <input class="c-tab_input" type="radio" name="c-tab" id="foo-c-tab-3"/>
-      <label class="c-tab_label" for="foo-c-tab-3">Pressure</label>
-      <section class="c-tab_content">
-        <p>content 3</p>
-      </section>
-    </li>
-
-      -->
-    
-      <!--
-      <li class="c-tab_item">
-      <input class="c-tab_input" type="radio" name="c-tab" id="foo-c-tab-4"/>
-      <label class="c-tab_label" for="foo-c-tab-4">Tab4</label>
-      <section class="c-tab_content">
-        <p>content 4</p>
-      </section>
-    </li> -->
-      
-  </ul>
-</div>
+            <a href="app_BasicCalculator/iosBasicCalculator.html">
+                <img src="preview/app_index_Basic.PNG" onmouseover="Basic()" onmouseleave="Default()"/>
+            </a>
+            <a href="app_Timer/iosTimer.html">
+                <img src="preview/app_index_Timer.PNG" onmouseover="Timer()" onmouseleave="Default()"/>
+            </a>
+            <a href="app_MacroCalculator/iosMacroCalculator.html">
+                <img src="preview/app_index_Macro.PNG" onmouseover="Macro()" onmouseleave="Default()"/>
+            </a>
+            <a href="app_BMICalculator/iosBMICalculator.html">
+                <img src="preview/app_index_BMI.PNG" onmouseover="BMI()" onmouseleave="Default()"/>
+            </a>
+            <a href="app_GradeCalculator/iosGradeCalculator.html">
+                <img src="preview/app_index_Grade.PNG" onmouseover="Grade()" onmouseleave="Default()"/>
+            </a>
+            <br/><br/>
+            <div class="module_link-before"></div>
+            <a href="https://github.com/vivekverma007/ios-13-Calculators" class="module_link">Find this Repository on Github here</a>
         </div>
-
-    <!-- virtualiz.me -->
- 
-    <script  src="ng-app/angular.min.js"></script>
-    <script  src="ng-app/ng_app.js"></script>
-    <script src="ng-app/viv_ng_basic.js"></script>
-    <script src="ng-app/viv_ng_bmi.js"></script>
-    
-  
-</body>
-</html>
+    <!-- virtualiz me -->
+    </body>
+    <script src="ng-app/viv_preview.js"></script>
+</html>                                      

@@ -1,0 +1,64 @@
+body {
+ font-family: 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.preview_div{
+    
+    margin: auto;
+    width: 100%;
+    text-align-last: center;
+}
+img{
+    width: 155px;
+    transition: 0.3s ease;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+img:hover{
+    transform: scale(1.1,1.1);
+    opacity: 0.75;
+}
+img:active{
+    transform: scale(0.9,0.9);
+    opacity: 1;
+}
+h4,h5,h3{
+    text-align: center;
+    margin: auto;
+    font-weight: 500;
+    color: #444;
+}
+h4{
+    margin: 10px;
+    font-size: 19px;
+}
+h5{
+    margin-bottom: 30px;
+}
+.calculator_title{
+    color: #16ab9c;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+a{
+    text-decoration: none;
+}
+.module_icon{
+    width: 55px;
+}
+.module_icon-container{
+    text-align-last: center;
+    margin-top: 10px;
+}
+.module_link{
+    font-weight: 600;
+    color: #444;
+}
+.module_link-before{
+    content: url(gitIcon.svg);
+    width: 40px;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}

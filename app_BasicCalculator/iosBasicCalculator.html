@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>ios13 Basic Calculator</title>
+    <link rel="stylesheet" href="css/framework.css">
+</head>
+    <body>
+    <div class="viv_body">
+        <div ng-app="viv_calc">
+            <!-- Content of Basic Calculator -->
+            <div class="container basic" ng-controller="myCtrl">
+
+                <input class="item item-header basic" placeholder="0" id="currentValue" ng-model="c_value" />
+
+                  <button class="btn silver clear" ng-click="clear()">AC</button>
+                  <button class="btn silver negative" ng-click="solveFraction()">1/x</button>
+                  <button class="btn orange silver" ng-click="addMod()">%</button>
+                  <button class="btn orange" ng-click="addDivide()">÷</button>
+
+                  <button class="btn num" ng-click="addSeven()">7</button>
+                  <button class="btn num" ng-click="addEight()">8</button>
+                  <button class="btn num" ng-click="addNine()">9</button>
+                  <button class="btn orange" ng-click="addMulti()">x</button>
+
+                  <button class="btn num" ng-click="addFour()">4</button>
+                  <button class="btn num" ng-click="addFive()">5</button>
+                  <button class="btn num" ng-click="addSix()">6</button>
+                  <button class="btn orange subtract" ng-click="addMinus()">-</button>
+
+                  <button class="btn num" ng-click="addOne()">1</button>
+                  <button class="btn num" ng-click="addTwo()">2</button>
+                  <button class="btn num" ng-click="addThree()">3</button>
+                  <button class="btn orange add" ng-click="addPlus()">+</button>
+
+                  <button class="btn num zero" ng-click="addZero()">0</button>
+                  <button class="btn num" ng-click="addDecimal()">.</button>
+                  <button class="btn equals" ng-click="solveAdd()">=</button>
+
+            </div>
+          
+        </div>
+    </div>
+    <!-- virtualiz me -->
+    </body>
+    <script  src="js/angular.min.js"></script>
+    <script  src="js/ng_app.js"></script>
+    <script  src="js/viv_ng_basic.js"></script>
+</html>

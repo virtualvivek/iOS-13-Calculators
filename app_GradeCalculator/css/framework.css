@@ -1,0 +1,193 @@
+body {
+ 
+  font-family: 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+    background: url(../assets/img/preview_back.jpg) no-repeat;
+    background-position: center;;
+    background-position: top;
+    background-size: 80%
+}
+.viv_body
+        {
+        position: relative;
+        border: 2px solid #ddd;
+        width: 225px;
+        margin: auto;
+        padding: 0px;
+        border-radius: 28px;
+        background: #E5E1EF;
+        margin-top: 60px;
+        overflow: hidden;
+        }
+
+.grade_container {
+  display: block;
+    justify-content: center;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: 80px 55px;
+    grid-template-areas:
+        "header header header header"
+        "main main main main"
+        "main main main main"
+        "main main main main"
+        "main main main main"
+        "main main main main";
+    width: 190px;
+    background: white;
+    padding-bottom: 10px;
+    padding-top: 12px;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    margin: auto;
+    margin-top: 2%;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: sans-serif;
+}
+
+input.data_field.grades {
+    background-color: #E9F0F4;
+    padding: 8px 8px 8px 15px;
+    border-radius: 16px;
+    color: #222;
+    border: 2px solid silver;
+    width: 100%;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: left;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    font: 400 13.3333px Arial;
+    margin: 5px 0px;
+    box-shadow: 0px 0px 5px #eee, 0px 0px 5px #eee, 0px 0px 20px #eee;
+    transition: 0.25s ease;
+    font-size: 16.8px;
+}
+
+input.data_field.grades:focus
+{
+    border: 2px solid #999;
+    outline: none;
+    background: #eee;
+}
+
+input.data_field.grades:hover
+{
+    border: 2px solid #777;
+    outline: none;
+    background: #eee;
+}
+
+.horizontal_l.grade{
+    height: 1.4px;
+    background: #ddd;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+}
+
+h4.title.grade{
+    margin: 8px;
+    text-align: center;
+    font-weight: 500;
+    color: #444;
+}
+.valueHint.grade{
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.answer-para{
+    margin: 2px 0;
+    color: #444;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+#final_grade{
+    display: none;
+}
+
+.result-title.grade{
+    font-size: 15px;
+    color: #059CFE;
+    margin-bottom: 0px;
+}
+
+#avg_grades{
+        font-size: 28px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+#grades{
+    font-size: 14px;
+    margin-top: 5px;
+    color: #39A86A;
+}
+
+.button.grade_result {
+    border: 2px solid transparent;
+    background: #2EC973;
+    color: white;
+    box-shadow: 0px 0px 1px #2EC973, 0px 0px 1px #2EC973, 0px 5px 20px #2EC973;
+    padding: 8px;
+    transition: all ease 0.2s;
+    border-radius: 16px;
+    width: 100%;
+    margin-bottom: 10px; 
+    transition: 0.2s ease ;
+}
+
+.button.grade_result:hover {
+  background-color: #2EC355;
+  color: white;
+}
+
+.button.grade_result:focus {
+  outline: none;
+}
+
+.button.grade_result:active{
+    transform: scale(.91,.91);
+    background-color: #15AC58;
+}
+
+.submit-container.grade{
+    display: flex;
+    margin-top: 15px;
+}
+
+.button.grade_clear{
+    border:2px solid transparent;
+    background:#F6444E;
+    color: white;
+    box-shadow: 0px 0px 1px #F6444E, 0px 0px 1px #F6444E, 0px 5px 20px #F6444E;
+    padding:8px;
+    transition: all ease 0.2s;
+    border-radius: 16px;
+    width:40%;
+    margin-bottom:10px;
+    margin-right:12px;
+    transition: 0.2s ease ;
+}
+
+.button.grade_clear:focus{
+    outline:none;
+}
+
+.button.grade_clear:hover{
+    background-color:#CE3711;
+}
+
+.button.grade_clear:active{
+    background-color:#CE1722;
+    transform: scale(.91,.91);
+}

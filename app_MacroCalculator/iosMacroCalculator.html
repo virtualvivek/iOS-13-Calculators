@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>ios13 Macro Calculator</title>
+    <link rel="stylesheet" href="css/framework.css">
+</head>
+    <body>
+        <div class="viv_body">
+            <div>
+            <!-- Content of Macro Calculator -->
+            <div class="macro_container">
+                <div class="result-container">
+                <p class="title_result macro">YOUR RESULTS</p>
+                <h3 class="calories"><span>0</span> kcal</h3>
+                <p class="thickUnder macro">MACRONUTRIENTS</p>
+                
+                <div id="info" class="sideC">Carbohydrate : <span class="c">0</span><span class="subV">g / </span> <span class="percent"></span><span class="subV">%</span></div>
+
+                <div id="info" class="sideF">Fat : <span class="c">0</span><span class="subV">g / </span><span class="percent"></span><span class="subV">%</span></div>
+
+                <div id="info" class="sideP">Protien : <span class="c">0</span><span class="subV">g / </span><span class="percent"></span><span class="subV">%</span></div>
+                </div>
+    
+                <div class="horizontal_l macro"></div>
+
+                <div class="input-container macro">
+                <label for="carbs">CARBS<span class="grams macro"> (grams)</span></label>
+                <input class="data_field macro" type="number" placeholder="0" id="carbs" min="0">
+                </div>
+                <div class="input-container macro">
+                <label for="protien">PROTEIN<span class="grams macro"> (grams)</span></label>
+                <input class="data_field macro" type="number" placeholder="0" id="protien" min="0">
+                </div>
+                <div class="input-container macro">
+                <label for="fats">FATS<span class="grams macro"> (grams)</span></label>
+                <input class="data_field macro" type="number" placeholder="0" id="fats" min="0">
+                </div>
+          </div>
+        </div>
+    </div>
+    <!-- virtualiz me -->
+</body>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script  src="js/viv_macro_js.js"></script>
+</html>

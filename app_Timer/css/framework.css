@@ -1,0 +1,165 @@
+body {
+ 
+  font-family: 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+    background: url(../assets/img/preview_back.jpg) no-repeat;
+    background-position: center;;
+    background-position: top;
+    background-size: 80%
+}
+
+button:focus
+{
+    outline: none;
+}
+
+.viv_body
+        {
+        position: relative;
+        border: 2px solid #ddd;
+        width: 225px;
+        margin: auto;
+        padding: 0px;
+        border-radius: 28px;
+        background: #fafafa;
+        margin-top: 60px;
+            overflow: hidden;
+        }
+
+.timer_container {
+    display: grid;
+    width: 100%;
+    background: WHITE;
+    padding-bottom: 40px;
+    padding-top: 0px;
+    margin: auto;
+}
+
+.titleBar.timer
+{
+    background: #E5E1EF;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    color: #222;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+p.timerValue
+{
+    font-size: 45px;
+    text-align: center;
+    color: #222;
+    margin: 25px 0 25px 0;
+    
+}
+
+.button.timerButton
+{
+    border-radius: 50px;
+    height: 74px;
+    width: 74px;
+    border: 2px solid #fff;
+    background: #16ab9c;
+    font-size: 14px;
+    color: #fff;
+    transition: all ease 0.3s;
+    text-align: center;
+}
+
+.button.timerButton:active
+{
+    transform: scale(.91,.91);
+}
+
+.button.timerButton.border
+{
+    padding: 2px;
+    border-radius: 50px;
+}
+
+.button.timerButton.border.pause
+{
+    border: 1px solid #DE8215CC;
+}
+.button.timerButton.pause
+{
+    background: #DE8215CC;
+    box-shadow: 0px 0px 5px #DE821576, 0px 0px 60px #DE821576, 0px 8px 20px #DE821576;
+    cursor: pointer;
+}
+.button.timerButton.pause:disabled
+{
+    background: #FBC07C;
+    color: #DE8215;
+    cursor: context-menu;
+}
+
+.button.timerButton.border.start
+{
+    border: 1px solid #2EC973CC;
+}
+.button.timerButton.start
+{
+    background:#2EC973CC ;
+    box-shadow: 0px 0px 5px #2EC97376, 0px 0px 60px #2EC97376, 0px 8px 20px #2EC97376;
+    cursor: pointer;
+}
+
+.button.timerButton.start:disabled
+{
+    background: #84F1B5;
+    color: #2EC973;
+    cursor: context-menu;
+}
+
+.timer-buttons-container
+{
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.reset-container
+{
+    width: 90%;
+    height: 40px;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    margin: 0px 10px 30px auto;
+}
+
+#reset
+{
+    width: 100%;
+    border: none;
+    background: transparent;
+    height: 80%;
+    border-radius: 8px;
+    color: #422;
+    margin-top: 4px;
+    font-size: 18px;
+    line-height: 1;
+    transition: all ease 0.3s;
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+#reset:hover
+{
+    background: #ddd;
+}
+
+#reset:active
+{
+    background: #9dd;
+    transform: scale(.91,.91);
+}
+#reset::after{
+    content: "⃠";
+    float: right;
+    position: relative;
+    right: 10px;
+    line-height: 1;
+}

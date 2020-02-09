@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>ios13 Timer</title>
+  <link rel="stylesheet" href="css/framework.css">
+</head>
+<body>
+    <div class="viv_body">
+        <div ng-app="viv_calc">
+            <div class="titleBar timer">
+            <span>Timer</span>
+            </div>
+            <!-- Content of Timer -->
+            <div class="timer_container" ng-controller="myCtrl">
+            
+                <p class="timerValue">{{counter | formatTimer}}</p>
+            
+                <div class="reset-container"><button id="reset" ng-click="reset()">Reset</button></div>
+                <div class="timer-buttons-container">
+                <div class="button timerButton border pause">
+                <button id="pause" class="button timerButton pause" ng-click="stop()" ng-disabled="!timerRunning" >Pause</button></div>
+                <div class="button timerButton border start">
+                <button id="resume" class="button timerButton start" ng-click="countdown()" ng-disabled="timerRunning">Start</button></div>
+                </div>
+            </div>
+          </div>
+    </div>
+    <!-- virtualiz me -->
+ </body>
+    <script  src="ng-app/angular.min.js"></script>
+    <script  src="ng-app/ng_app.js"></script>
+    <script src="ng-app/viv_ng_timer.js"></script>
+</html>

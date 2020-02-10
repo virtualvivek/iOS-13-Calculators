@@ -111,7 +111,6 @@ ng-model="b_value"
 ```
 
 
-
 ## Timer
 
 <img align="left" src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/anim_timer.gif" width="180" />
@@ -127,7 +126,44 @@ use {{counter | formatTimer}}
 Eg: <input type="text" placeholder="BMI value" value="{{counter | formatTimer}}"/>
 ```
 
-<br><br><br><br>
+
+
+
+​
+## Grade Calculator
+
+<img align="left" src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/app_index_Grade.PNG" width="180" />
+
+### Usage
+To use values returned by the Grade calculator-
+```html
+use id 'avg_grades'
+
+Eg: <input type="text" placeholder="Grades" value="avg_grades"/>
+```
+OR through `assign` value-
+```js
+var value = document.getElementById("avg_grades").value;
+```
+
+​
+## Macro Calculator
+
+<img align="left" src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/app_index_Macro.PNG" width="180" />
+
+### Usage
+To use values returned by the Macro calculator-
+```html
+use class 'calories' using structure:
+
+<h3 class="calories"><span>0</span> kcal</h3>
+```
+OR through `assign` value-
+```js
+var value = document.getElementById("calories").innerHtml;
+```
+
+<br><br><br>
 
 <a href="https://virtualizme-cals.netlify.com/"><img src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/demo_button.png" width="140" /></a> 
 

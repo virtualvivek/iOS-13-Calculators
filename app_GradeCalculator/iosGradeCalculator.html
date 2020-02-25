@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>ios13 Grade Calculator</title>
+    <link rel="stylesheet" href="css/framework.css">
+</head>
+    <body>
+    <div class="viv_body">
+        <div>
+            <!-- Content of Grade Calculator -->
+            <div class="grade_container">
+                <h4 class="title grade">Grade Calculator</h4>
+                <p id="result_title" class="answer-para">Provide marks to display:</p>
+                <div id="avg_grades"></div> 
+                <p class="result-title grade">Result</p>
+	            <p class="answer-para">Your grades from high to low:</p>
+	            <div id="grades"></div>
+                <div class="horizontal_l grade"></div>
+                <div class="valueHint grade">Input your grades separated by commas:</div>
+                <input class="data_field grades" id="yourgrades" type="text" placeholder="Enter marks,.." />
+    
+            <div class="submit-container grade">
+            <button class="button grade_clear" onclick="clearr();">AC</button>
+	        <input class="button grade_result" id="submitbutton" type="button" value="Calculate" onClick="submit();"/>
+            </div>    
+            <div id="final_grade"></div>
+            </div>
+        </div>
+    </div>
+    <!-- virtualiz me -->
+    </body>
+    <script  src="js/viv_grade_js.js"></script>
+</html>

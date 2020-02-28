@@ -126,11 +126,13 @@ To use values returned by the Timer-
 use {{counter | formatTimer}}
 
 Eg: <input type="text" placeholder="BMI value" value="{{counter | formatTimer}}"/>
+
+
 ```
-
-
-
-
+​
+​
+​
+​
 ​
 ​
 ​

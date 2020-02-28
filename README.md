@@ -94,6 +94,7 @@ ng-model="c_value"
 
 
 ​
+​
 ## BMI Calculator
 
 <img align="left" src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/anim_bmi.gif" width="180" />
@@ -111,6 +112,7 @@ ng-model="b_value"
 ```
 
 
+​
 ## Timer
 
 <img align="left" src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/anim_timer.gif" width="180" />
@@ -130,6 +132,9 @@ Eg: <input type="text" placeholder="BMI value" value="{{counter | formatTimer}}"
 
 
 ​
+​
+​
+​
 ## Grade Calculator
 
 <img align="left" src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/app_index_Grade.PNG" width="180" />
@@ -146,6 +151,7 @@ OR through `assign` value-
 var value = document.getElementById("avg_grades").value;
 ```
 
+​
 ​
 ## Macro Calculator
 

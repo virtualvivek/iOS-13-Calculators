@@ -75,6 +75,7 @@ Simply copy the html code and add between you page.
 
 ```
 </p>  
+​
 
 ## Basic Calculator
 
@@ -92,8 +93,8 @@ OR through `ng` tag-
 ng-model="c_value"
 ```
 
-
 ​
+
 ​
 ## BMI Calculator
 
@@ -119,7 +120,7 @@ ng-model="b_value"
 
 ### Usage
 
- <p><b>Standalone timer app here : </b><a href="https://google.com">ios-13-Calculators/iosTimer</a><p/>
+ <p><b>Standalone timer app here : </b><a href="https://github.com/vivekverma007/iOS-13-Calculators/tree/master/app_Timer">ios-13-Calculators/iosTimer</a><p/>
 
 To use values returned by the Timer-
 ```html
@@ -131,6 +132,10 @@ Eg:
 
 
 ```
+​
+
+
+​
 ​
 ​
 ​
@@ -174,8 +179,6 @@ var value = document.getElementById("calories").innerHtml;
 ```
 
 <br><br><br>
-
-<a href="https://virtualizme-cals.netlify.com/"><img src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/demo_button.png" width="140" /></a> 
 
 
 ### Browser Compatibility

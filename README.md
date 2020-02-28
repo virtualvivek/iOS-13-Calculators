@@ -125,7 +125,9 @@ To use values returned by the Timer-
 ```html
 use {{counter | formatTimer}}
 
-Eg: <input type="text" placeholder="BMI value" value="{{counter | formatTimer}}"/>
+Eg:
+
+<input type="text" placeholder="BMI value" value="{{counter | formatTimer}}"/>
 
 
 ```
@@ -146,7 +148,7 @@ To use values returned by the Grade calculator-
 ```html
 use id 'avg_grades'
 
-Eg: <input type="text" id="avg_grades" placeholder="Grades" value="avg_grades"/>
+Eg: <input type="text" id="avg_grades" placeholder="Grade" value="avg_grades"/>
 ```
 OR through `assign` value-
 ```js

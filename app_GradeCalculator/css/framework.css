@@ -1,25 +1,24 @@
 body {
- 
-  font-family: 'Helvetica Neue', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: 'Helvetica Neue', sans-serif;
     background: url(../assets/img/preview_back.jpg) no-repeat;
     background-position: center;;
     background-position: top;
-    background-size: 80%
+    background-size: 80%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 .viv_body
-        {
-        position: relative;
-        border: 2px solid #ddd;
-        width: 225px;
-        margin: auto;
-        padding: 0px;
-        border-radius: 28px;
-        background: #E5E1EF;
-        margin-top: 60px;
-        overflow: hidden;
-        }
+    {
+     position: relative;
+     border: 2px solid #ddd;
+     width: 225px;
+     margin: auto;
+     padding: 0px;
+     border-radius: 28px;
+     background: #E5E1EF;
+     margin-top: 60px;
+     overflow: hidden;
+    }
 
 .grade_container {
   display: block;
@@ -122,7 +121,7 @@ h4.title.grade{
 }
 
 #avg_grades{
-        font-size: 28px;
+    font-size: 28px;
     margin-top: 5px;
     margin-bottom: 15px;
 }
@@ -147,12 +146,12 @@ h4.title.grade{
 }
 
 .button.grade_result:hover {
-  background-color: #2EC355;
-  color: white;
+    background-color: #2EC355;
+    color: white;
 }
 
 .button.grade_result:focus {
-  outline: none;
+    outline: none;
 }
 
 .button.grade_result:active{

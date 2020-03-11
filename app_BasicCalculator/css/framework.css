@@ -1,25 +1,24 @@
 body {
- 
-  font-family: 'Helvetica Neue', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: 'Helvetica Neue', sans-serif;
     background: url(../assets/img/preview_back.jpg) no-repeat;
     background-position: center;;
     background-position: top;
-    background-size: 80%
+    background-size: 80%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 .viv_body
         {
-        position: relative;
-        border: 2px solid #ddd;
-        width: 225px;
-        margin: auto;
-        padding: 0px;
-        border-radius: 28px;
-        background: #E5E1EF;
-        margin-top: 60px;
-        overflow: hidden;
-        }
+    position: relative;
+    border: 2px solid #ddd;
+    width: 225px;
+    margin: auto;
+    padding: 0px;
+    border-radius: 28px;
+    background: #E5E1EF;
+    margin-top: 60px;
+    overflow: hidden;
+    }
 
 button 
 {
@@ -69,8 +68,8 @@ button:active{
 }
 
 #globalAnswer {
-  background-color:#111;
-  font-size: 1px;
+   background-color:#111;
+   font-size: 1px;
 }
 
 #currentValue {
@@ -136,17 +135,17 @@ button.equals {
 }
 
 button.equals:hover {
-  background-color: #15AC58;
-  color: white;
+    background-color: #15AC58;
+    color: white;
 }
 
 button.zero {
-  text-align: left;
-  padding-left: 32px;
-  grid-row: 6;
-  grid-column-start: 1;
-  grid-column-end: span 2;
-  border-radius: 50px;
+    text-align: left;
+    padding-left: 32px;
+    grid-row: 6;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    border-radius: 50px;
 }
 
 button.num

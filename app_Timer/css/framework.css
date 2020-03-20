@@ -1,12 +1,11 @@
 body {
- 
-  font-family: 'Helvetica Neue', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: 'Helvetica Neue', sans-serif;
     background: url(../assets/img/preview_back.jpg) no-repeat;
     background-position: center;;
     background-position: top;
-    background-size: 80%
+    background-size: 80%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 button:focus
@@ -16,15 +15,15 @@ button:focus
 
 .viv_body
         {
-        position: relative;
-        border: 2px solid #ddd;
-        width: 225px;
-        margin: auto;
-        padding: 0px;
-        border-radius: 28px;
-        background: #fafafa;
-        margin-top: 60px;
-            overflow: hidden;
+    position: relative;
+    border: 2px solid #ddd;
+    width: 225px;
+    margin: auto;
+    padding: 0px;
+    border-radius: 28px;
+    background: #fafafa;
+    margin-top: 60px;
+    overflow: hidden;
         }
 
 .timer_container {
@@ -53,7 +52,6 @@ p.timerValue
     text-align: center;
     color: #222;
     margin: 25px 0 25px 0;
-    
 }
 
 .button.timerButton
@@ -84,12 +82,14 @@ p.timerValue
 {
     border: 1px solid #DE8215CC;
 }
+
 .button.timerButton.pause
 {
     background: #DE8215CC;
     box-shadow: 0px 0px 5px #DE821576, 0px 0px 60px #DE821576, 0px 8px 20px #DE821576;
     cursor: pointer;
 }
+
 .button.timerButton.pause:disabled
 {
     background: #FBC07C;
@@ -156,6 +156,7 @@ p.timerValue
     background: #9dd;
     transform: scale(.91,.91);
 }
+
 #reset::after{
     content: "⃠";
     float: right;

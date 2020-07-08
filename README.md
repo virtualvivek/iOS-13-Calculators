@@ -41,7 +41,7 @@
 
 <p align="center">
 <img src="preview/app_dark.png" width="28" />​ See a similar dark version  here - 
-	<a href="https://github.com/virtualvivek/iweb-calculator">Dark version of ios Calculator</a>
+	<a href="https://github.com/virtualvivek/iwebCalculator">Dark version of ios Calculator</a>
 </p>	
 
 ___

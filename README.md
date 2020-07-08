@@ -1,4 +1,4 @@
-<h2 align="center"> <img src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/app_icon_title.png" width="340" /> </h2>
+<h2 align="center"> <img src="preview/app_icon_title.png" width="340" /> </h2>
 
 <p align="center">
 	
@@ -12,15 +12,15 @@
       alt="Framework" />
   </a>	
   	
-  <a href="https://github.com/vivekverma007/ios-13-Calculators">
+  <a href="https://github.com/virtualvivek/ios-13-Calculators">
     <img src="https://img.shields.io/github/repo-size/vivekverma007/ios-13-Calculators.svg?color=orange"
       alt="Repo. Size" />
   </a>
-  	<a href="https://github.com/vivekverma007/ios-13-Calculators/blob/master/LICENSE">
+  	<a href="https://github.com/virtualvivek/ios-13-Calculators/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/vivekverma007/ios-13-Calculators.svg?color=blue"
       alt="License: Apache" />
   </a>
-  	<a href="https://github.com/vivekverma007/ios-13-Calculators">
+  	<a href="https://github.com/virtualvivek/ios-13-Calculators">
     <img src="https://img.shields.io/badge/Release-v2.4-darklime.svg?style=flat"
       alt="Release" />
   </a>
@@ -34,13 +34,14 @@
   
 </p>
 
-<p align="center"><img src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/app_preview_main.jpg" width="740" /> </p> 
+<p align="center"><img src="preview/app_preview_main.jpg" width="740" /> </p> 
 
 
 <h4 align="center">A light-weight library provides ios 13 style calculators for web applications</h4>
 
 <p align="center">
-<img src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/app_dark.png" width="28" />​ See a similar dark version  here - <a href="https://github.com/vivekverma007/iweb-calculator">Dark version of ios Calculator</a>
+<img src="preview/app_dark.png" width="28" />​ See a similar dark version  here - 
+	<a href="https://github.com/virtualvivek/iweb-calculator">Dark version of ios Calculator</a>
 </p>	
 
 ___
@@ -79,7 +80,7 @@ Simply copy the html code and add between you page.
 
 ## Basic Calculator
 
-<img align="left" src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/anim_basic.gif" width="180" />
+<img align="left" src="preview/anim_basic.gif" width="180" />
 
 ### Usage
 To use values returned by the Basic calculator-
@@ -98,7 +99,7 @@ ng-model="c_value"
 ​
 ## BMI Calculator
 
-<img align="left" src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/anim_bmi.gif" width="180" />
+<img align="left" src="preview/anim_bmi.gif" width="180" />
 
 ### Usage
 To use values returned by the BMI calculator-
@@ -116,11 +117,11 @@ ng-model="b_value"
 ​
 ## Timer
 
-<img align="left" src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/anim_timer.gif" width="180" />
+<img align="left" src="preview/anim_timer.gif" width="180" />
 
 ### Usage
 
- <p><b>Standalone timer app here : </b><a href="https://github.com/vivekverma007/iOS-13-Calculators/tree/master/app_Timer">ios-13-Calculators/iosTimer</a><p/>
+ <p><b>Standalone timer app here : </b><a href="app_Timer">ios-13-Calculators/iosTimer</a><p/>
 
 To use values returned by the Timer-
 ```html
@@ -146,7 +147,7 @@ Eg:
 ​
 ## Grade Calculator
 
-<img align="left" src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/app_index_Grade.PNG" width="180" />
+<img align="left" src="preview/app_index_Grade.PNG" width="180" />
 
 ### Usage
 To use values returned by the Grade calculator-
@@ -164,7 +165,7 @@ var value = document.getElementById("avg_grades").value;
 ​
 ## Macro Calculator
 
-<img align="left" src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/app_index_Macro.PNG" width="180" />
+<img align="left" src="preview/app_index_Macro.PNG" width="180" />
 
 ### Usage
 To use values returned by the Macro calculator-
@@ -189,5 +190,5 @@ Latest ✔ | Latest ✔ | Latest ✔ | 9.1+ ✔ | Latest ✔ |
 
 ## License
 
-ios13-Calculators is licensed under `Apache-2.0 license`. View [license](https://github.com/vivekverma007/ios-13-Calculators/blob/master/LICENSE).<br>
+ios13-Calculators is licensed under `Apache-2.0 license`. View [license](https://github.com/virtualvivek/ios-13-Calculators/blob/master/LICENSE).<br>
 Copyright (c) 2019-20 `Vivek Verma`
